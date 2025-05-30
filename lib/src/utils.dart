@@ -23,7 +23,7 @@ Locale localeFromString(String localeString) {
   }
 }
 
-/// Convert [locale] to Srting with custom [separator]
+/// Convert [locale] to String with custom [separator]
 @Deprecated('Deprecated on Easy Localization 3.0')
 String localeToString(Locale locale, {String separator = '_'}) {
   return locale.toString().split('_').join(separator);

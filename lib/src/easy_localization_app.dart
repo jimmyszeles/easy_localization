@@ -6,7 +6,6 @@ import 'package:easy_logger/easy_logger.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'asset_loader.dart';
 import 'localization.dart';
 
 part 'utils.dart';
@@ -18,7 +17,7 @@ part 'utils.dart';
 ///    runApp(EasyLocalization(
 ///      child: MyApp(),
 ///      supportedLocales: [Locale('en', 'US'), Locale('ar', 'DZ')],
-///      path: 'resources/langs/langs.csv',
+///      path: 'resources/languages/languages.csv',
 ///      assetLoader: CsvAssetLoader()
 ///    ));
 ///  }
